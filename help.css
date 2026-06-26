@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.container{
+    margin: 0 7rem;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: rgb(6, 6, 6);
+    padding-bottom: 15px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav .nav-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav .nav-left img{
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav .nav-left .a{
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.nav .nav-left a:hover{
+    text-decoration: underline;
+}
+.nav .nav-right{
+display: flex;
+gap: 10px;
+}
+.nav .nav-right .join{
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(62, 61, 61);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.nav .nav-right .join:hover{
+    border: 1px solid white;
+}
+.nav .nav-right .sign{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+    margin-top:10px ;
+}
+.nav .nav-right .sign:hover{
+    background-color: rgb(91, 6, 6);
+}
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .content h6{
+    margin-top: 45px;
+    font-size: 17px;
+    color: black;
+    font-weight: lighter;
+}
+.hero .content h6 a{
+    color: black;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.hero .content h6 a:hover{
+    text-decoration: underline;
+    color: rgb(35, 34, 34);
+}
+.hero .content button i{
+    margin-right: 10px;
+}
+.hero .content button{
+    padding: 10px 25px;
+    border: none;
+    background-color: #dedbdb;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.hero .content button:hover{
+    background-color: #777;
+}
+.body {
+    margin-top: 20px;
+}
+.body h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.body p{
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 5rem;
+    width:100%;
+    padding:40px 0 80px;
+    display:flex;
+    flex-direction:column;
+        background: linear-gradient(
+        to top right,
+        #000 0%,
+        #000 60%,
+        #2a0000 80%,
+        #5a0000 90%,
+        #8b0000 100%
+    );
+
+    padding: 80px 0;
+}
+
+.language{
+    position:relative;
+    width:310px;
+}
+
+.language select{
+    width:100%;
+    padding:15px 45px 15px 20px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #555;
+    font-size:22px;
+    appearance:none;
+    cursor:pointer;
+}
+
+.language i{
+    position:absolute;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#fff;
+    pointer-events:none;
+}
+
+.footer-links{
+    margin-top:50px;
+    width:310px;
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+}
+
+.footer-links a{
+    color:#b3b3b3;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+@media (max-width: 767px) {
+.container{
+    margin: 0 1rem;
+}
+.nav .nav-left{
+    flex-direction: column;
+}
+.nav .nav-right{
+    flex-direction: column;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
